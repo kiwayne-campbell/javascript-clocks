@@ -7,9 +7,16 @@ body {
   font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  text-align: center;
+}
 
 h1 {
-  color: #396;
+  color: #d32027;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
@@ -27,18 +34,22 @@ h1 {
 #countdownDiv > div {
     padding: 10px;
     border-radius: 3px;
-    /*background: #00BF96;*/
+    background: #fff;
     display: inline-block;
 }
 
 #countdownDiv div > span {
     padding: 15px;
     border-radius: 3px;
-    background: #00816A;
+    background: #d32027;
     display: inline-block;
 }
 
 .smalltext {
     padding-top: 5px;
     font-size: 16px;
+    color: #d32027;
+    font-family: 'Press Start 2P', cursive;
 }
+
+/*font-family: 'VT323', monospace;
