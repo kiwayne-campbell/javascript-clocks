@@ -1,6 +1,6 @@
 // must set a deadline time so we can countdown with the timer- must use correct ISO format
 
-let deadline = 'September 17 2037 23:59:59 GMT+0000';
+const deadline = 'September 17 2037 23:59:59 GMT+0000';
 
 // must setup elements of hous, minutes, days etc by using inbuilt JS timer methods
 

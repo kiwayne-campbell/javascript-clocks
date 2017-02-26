@@ -1,11 +1,11 @@
 
 body {
   text-align: center;
-  background: #00ECB9;
+  /*background: #00ECB9;*/
+  background-image: url('../images/whiteroseBG.gif');
   font-family: sans-serif;
   font-weight: 100;
 }
-
 
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
   margin: 40px 0px 20px;
 }
 
-#countdownDiv, #clock {
+#countdownDiv {
     font-family: sans-serif;
     color: #fff;
     display: inline-block;
@@ -24,10 +24,10 @@ h1 {
     font-size: 30px;
 }
 
-#countdownDiv, #clock > div {
+#countdownDiv > div {
     padding: 10px;
     border-radius: 3px;
-    background: #00BF96;
+    /*background: #00BF96;*/
     display: inline-block;
 }
 
