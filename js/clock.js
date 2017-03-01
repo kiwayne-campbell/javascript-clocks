@@ -21,6 +21,7 @@ function updateClock () {
 
   // format for hours of the day -  AM/PM plus we will make sure it returns something other than 0
 
+  // use the below if you don't want a 24hr format time!remove is you want 24hr
   const timeOfDay = ( currentHours < 12 ) ? 'AM' : 'PM';
 
   currentHours = ( currentHours > 12) ? currentHours - 12 : currentHours;
